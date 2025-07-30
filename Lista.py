@@ -230,9 +230,9 @@ print(lista_nomes[0], 'Notas', aluno1)
 print(lista_nomes[1], 'Notas', aluno2)
 print(lista_nomes[2], 'Notas', aluno3)
 
-media1 = sum(lista_aluno1)/len(lista_aluno1)
-media2 = sum(lista_aluno2)/len(lista_aluno2)
-media3 = sum(lista_aluno3)/len(lista_aluno3)
+media1 = round(sum(lista_aluno1)/len(lista_aluno1),2)
+media2 = round(sum(lista_aluno2)/len(lista_aluno2),2)
+media3 = round(sum(lista_aluno3)/len(lista_aluno3),2)
 
 
 
